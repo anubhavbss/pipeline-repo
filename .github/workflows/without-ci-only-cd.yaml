@@ -12,7 +12,7 @@ jobs:
 
       - name: Update YAML
         run: |
-          sed -i 's|image: .*|image: ghcr.io/anubhavbss/grade-api-gitops:latest|' new-deploy.yaml
+          sed -i 's|image: .*|image: ghcr.io/anubhavbss/without-cd:latest|' new-deploy.yaml
 
       - name: Commit
         run: |
